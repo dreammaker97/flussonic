@@ -1,0 +1,7 @@
+version: "3"
+services:
+  flussonic:
+    image: flussonic/flussonic
+    ports:
+      - "9981:80"
+    restart: always
