@@ -2,6 +2,7 @@ version: "3"
 services:
   flussonic:
     image: flussonic/flussonic
+    container_name: flussonic
     ports:
       - "9981:80"
     restart: always
